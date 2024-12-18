@@ -10,7 +10,7 @@ Markets
 Products
 Transactions
 SQL queries for data cleaning and exploration
-Data acquired is cleansed using SQL queries here. click here to view code
+Data acquired is cleansed using SQL queries here.
 
 Analysis using SQL
 Click here to view code Queries:
@@ -33,4 +33,4 @@ Sales were rapidly decreasing in 2020 compared to 2019 by around 57.7%.
 Highest revenue generated from Markets such as Delhi NCR, Mumbai, Ahmedabad, Bhopal, Nagpur, and so on.
 Highest quantities sold in the Market such as Delhi NCR, Mumbai, Nagpur, Kochi, Ahmedabad, and so on.
 Majority of the sales were takes place in the month of January followed by November and March.
-Dashboard of Performance Tracking of sales for quick view: image
+Dashboard of Performance Tracking of sales 
