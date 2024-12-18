@@ -13,7 +13,7 @@ SQL queries for data cleaning and exploration
 Data acquired is cleansed using SQL queries here.
 
 Analysis using SQL
-Click here to view code Queries:
+
 
 All tables and their rows in sales schema
 Date range in date table
