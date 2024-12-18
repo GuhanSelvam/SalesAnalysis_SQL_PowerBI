@@ -1,37 +1,36 @@
-# SalesAnalysis_SQL_PowerBI
+Sales Insights using-SQL & Power-BI
+Project description,functions,queries written,environment used are mentioned in readme.
 
-### Setup
-- This project requires SQL Server (SQL Express), Power BI Desktop
-- We will work with backup Data Warehouse (DW) data and Lightweight (LT) data. Obtain data and restore following instructions from [here.](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms)
-- Compare DW and LT data to understand the difference between structured and unstructured data. We will primarily be working with Data Warehouse data.
-- Update Data Warehouse data using [sql script.](https://github.com/techtalkcorner/SampleDemoFiles/blob/master/Database/AdventureWorks/Update_AdventureWorksDW_Data.sql)
+Sales Data - Cleaning & Exploration
+Removing and adding columns as necessary in the tables and preparing the database tables for Analysis. Data subset collected in SQL dump file and loaded to SQL server for exploring the data tables.
 
-### Business Request & User Stories
-- Read the sample business request, demand overview & filled-out user stories to understand the problem we are trying to solve with Data Analysis and what we consider as a solution.
+Customers
+Date
+Markets
+Products
+Transactions
+SQL queries for data cleaning and exploration
+Data acquired is cleansed using SQL queries here. click here to view code
 
-### Clean the Data using T-SQL
-- Understand the difference between FACT tables & Dimension tables.
-- Identify which tables in the data are of interest with the help of the Business Request form.
-- Choose which columns are of interest to export by preparing and transforming these columns in SQL using concepts such as: renaming columns, combining columns, commenting in SQL script, formatting of SQL statements, WHERE clause, ORDER BY, LEFT JOIN, CASE() function and ISNULL() function. 
+Analysis using SQL
+Click here to view code Queries:
 
-### Create Dashboard in Power BI
-- Load Data
-- Organize & Prepare Tables
-- Connect Tables for Data Model
-- Import Fact_Budget
-- Calculation Measures
-- Dashboard Design
-- Import Custom Visual
-- Measure Table
-- Pie Chart
-- Line Chart
-- Bar Charts
-- Map Graph
-- Top 10 Graphs
-- Gradient Bar Chart Color
-- Customer Details
-- Pivot Table
+All tables and their rows in sales schema
+Date range in date table
+Revenue generated in 2020 and 2019.
+Currency and their count
+Total sales amount collected by each market
+Sales quantity ordered from each market on each day
+Sales across all markets in each year
+Categorizing Product sales based on sales quantity in each order
+Calculating revenue Contribution percentage for each market across all years
+Finding market name that made maximum sales
+Data Visualization using Power BI dashboard
+Getting data into BI through SQL dump and performing Data Visualization and analysing of hardware store products across different regions, observing profit analysis and revenue trend of the company.
 
-### Dashboard
-- [Download the file](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pbix) and open in Power BI Desktop for interactive viewing.
-- [See a screenshot](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pdf) of the Dashboard in pdf.
+Insights:
+Sales were rapidly decreasing in 2020 compared to 2019 by around 57.7%.
+Highest revenue generated from Markets such as Delhi NCR, Mumbai, Ahmedabad, Bhopal, Nagpur, and so on.
+Highest quantities sold in the Market such as Delhi NCR, Mumbai, Nagpur, Kochi, Ahmedabad, and so on.
+Majority of the sales were takes place in the month of January followed by November and March.
+Dashboard of Performance Tracking of sales for quick view: image
